@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kakharadhamal - Hindi Alphabet Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=35">
+</head>
+
+<body>
+  <!-- Back to Top Arrow (Sticky/Floating at Viewport Top) -->
+  <a href="#site-container" class="back-to-top-arrow" aria-label="Back to home page">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </a>
+
+  <!-- Main layout container centered in the page -->
+  <div id="site-container">
+
+    <!-- Zone 0: Header Container -->
+    <div id="header-container">
+      <!-- Logo on the left, completely outside the brown clay bar -->
+      <a href="#site-container" class="header-logo-link">
+        <img src="images/logo.png" alt="Kakharadhamal Logo" class="logo-img">
+      </a>
+
+      <!-- Navigation Bar (the brown clay bar) on the right -->
+      <header id="navbar">
+        <img src="images/header navigation bar.png" alt="Navbar Background" class="nav-bg">
+
+        <!-- Navigation Links inside the brown bar -->
+        <nav class="nav-links">
+          <a href="#site-container" class="nav-item">
+            <img src="images/seceted word.png" alt="Selected Background" class="nav-item-bg">
+            <span class="nav-item-text">Home</span>
+          </a>
+
+          <a href="#zone-bottom" class="nav-item">
+            <img src="images/seceted word.png" alt="Selected Background" class="nav-item-bg">
+            <span class="nav-item-text">Modules</span>
+          </a>
+
+          <a href="#about" class="nav-item">
+            <img src="images/seceted word.png" alt="Selected Background" class="nav-item-bg">
+            <span class="nav-item-text">About us</span>
+          </a>
+
+          <a href="#footer" class="nav-item download-btn">
+            <img src="images/HN bar join.png" alt="Download Background" class="nav-item-bg">
+            <span class="nav-item-text download-text">Download App</span>
+          </a>
+        </nav>
+      </header>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Zone 1: Sky Hero Section (Background sky and clouds) -->
+    <section id="zone-sky" class="parallax-section">
+      <!-- Sky Background -->
+      <img src="images/sky top.jpg" alt="Sky Background" class="sky-bg parallax-layer" data-speed-y="0.1"
+        data-speed-x="0.05">
+    </section>
+
+    <!-- Sky Foreground Layer (Stacked on top of Earth Section / Middle Panel) -->
+    <div id="sky-foreground-container">
+      <!-- Back Content Wrapper (Clouds behind terrains) - Placed inside foreground container for correct mobile layering -->
+      <div class="content-wrapper back-content" id="cloud-container"></div>
+      <!-- Left Terrain (landscape / hills with trees) -->
+      <img src="images/land 02 copy 7.png" alt="Left Terrain" class="terrain-left parallax-layer" data-speed-y="0.15"
+        data-speed-x="0.08">
+
+      <!-- Right Terrain (hill with single tree) -->
+      <img src="images/Layer 25.png" alt="Right Terrain" class="terrain-right parallax-layer" data-speed-y="0.15"
+        data-speed-x="0.08">
+
+      <!-- Transition Overlay to cover the joint -->
+      <img src="images/Middle Panel 2.png" alt="Clay Border Transition" class="bottom-transition-overlay parallax-layer"
+        data-speed-y="0.11" data-speed-x="0.06">
+
+      <!-- Front Content Wrapper (Frame and Boy in front of terrains) -->
+      <div class="content-wrapper front-content">
+        <!-- Left Side Clay Frame Wrapper -->
+        <div class="tab-frame-wrap parallax-layer" data-speed-y="0.08" data-speed-x="0.04">
+          <img src="images/tab-1.png" alt="Landscape Frame" class="tab-frame">
+        </div>
+
+        <!-- Hero Headline Wrapper -->
+        <div class="hero-title-wrap parallax-layer" data-speed-y="0.07" data-speed-x="0.035">
+          <h1 class="hero-title">Learn Hindi Alphabet the Fun Way with Kakharadhamal! 🌟</h1>
+        </div>
+
+        <!-- Hero Sub-headline Wrapper -->
+        <div class="hero-subtitle-wrap parallax-layer" data-speed-y="0.05" data-speed-x="0.025">
+          <p class="hero-subtitle">बचपन की राष्ट्रभाषा अब एक अनोखी क्ले-आर्ट सफ़र में!<br>A Magical Adventure into a
+            Colorful World of Hindi 'Kakhara'!</p>
+        </div>
+
+        <!-- Jumping Boy Character Wrapper -->
+        <div class="boy-char-wrap parallax-layer" data-speed-y="0.05" data-speed-x="0.03">
+          <img src="images/boy 03.png" alt="Jumping Boy" class="boy-char">
+        </div>
+      </div>
+    </div>
+
+    <!-- Combined Zone 2 & 3: Bottom Section (Earth + Valley) -->
+    <section id="zone-bottom">
+      <img src="images/sec2&3.jpg" alt="Combined Bottom Background" class="bottom-bg">
+
+      <!-- Section 2: Explore Our 3 Game Modes -->
+      <div class="explore-sec">
+        <h2 class="bottom-title">Explore Our 3 Game Modes</h2>
+        <p class="bottom-subtitle">हमारे लर्निंग मोड्स</p>
+
+        <div class="explore-grid">
+          <!-- Card 1: Simple Words -->
+          <div class="explore-card">
+            <img src="images/explore/01 blue tab.png" alt="Simple Words Background" class="card-bg">
+            <div class="card-inner-content">
+              <h3 class="card-title blue-text">🗣️सरल शब्द<br><span class="eng-sub">(Simple Words)</span></h3>
+              <p class="card-body">The perfect stepping stone for vocabulary building. Kids trace, identify, and arrange
+                basic words on clean clay slates.</p>
+              <p class="card-hook">बच्चे छोटे और बुनियादी शब्दों को बहुत आसानी से सीखेंगे।</p>
+            </div>
+            <a href="#play-words" class="card-btn">
+              <img src="images/explore/01 blue tab button.png" alt="Play Button" class="card-btn-img">
+              <span class="card-btn-text">Play Now</span>
+            </a>
+          </div>
+
+          <!-- Card 2: Letter Hunt -->
+          <div class="explore-card">
+            <img src="images/explore/02 green tab.png" alt="Letter Hunt Background" class="card-bg">
+            <div class="card-inner-content">
+              <h3 class="card-title green-text">🔍अक्षर खोज<br><span class="eng-sub">(Letter Hunt)</span></h3>
+              <p class="card-body">An interactive puzzle mode that sharpens memory and letter recognition. Kids identify
+                vowels & consonants in colorful clay circles.</p>
+              <p class="card-hook">खेल-खेल में अक्षरों की सही पहचान और दिमाग की कसरत!</p>
+            </div>
+            <a href="#letter-hunt" class="card-btn">
+              <img src="images/explore/02 green tab button.png" alt="Hunt Button" class="card-btn-img">
+              <span class="card-btn-text">Hunt Now</span>
+            </a>
+          </div>
+
+          <!-- Card 3: Barkhadi (Locked) -->
+          <div class="explore-card locked">
+            <img src="images/explore/03 red tab.png" alt="Barkhadi Background" class="card-bg">
+            <div class="card-inner-content">
+              <h3 class="card-title red-text">🔒बाराखड़ी<br><span class="eng-sub">(Barkhadi)</span></h3>
+              <span class="status-badge">Coming Soon!</span>
+              <p class="card-body">Advanced language structure made easy. Keep an eye out for this up-coming module
+                designed to transition kids into full sentence formation!</p>
+            </div>
+            <div class="card-btn-disabled">
+              <img src="images/explore/03 red tab button.png" alt="Coming Soon Button" class="card-btn-img">
+              <span class="card-btn-text">Locked 🔒</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Elephant & Owl Section (Callout) -->
+      <div class="callout-sec" id="how-it-works">
+        <!-- Background Panel -->
+        <img src="images/explore/section 3.png" alt="Callout Background" class="callout-bg">
+
+        <!-- Floating clay image on the left -->
+        <div class="callout-images">
+          <img src="images/explore/elephant.png" alt="Clay Elephant" class="elephant-img">
+        </div>
+
+        <!-- Text content on the right -->
+        <div class="callout-text-block">
+          <h2 class="callout-title">🔒 Playful, Graphics & 100% Child-Friendly (Zero Data Tracking)</h2>
+          <p class="callout-body">🚫 <strong>No Login & Total Privacy:</strong> Open the app and start playing instantly
+            with no registration, sign-ups, or emails required. Absolute data privacy means no tracking leaves your
+            phone—all game progress stays 100% secure on your local device.</p>
+        </div>
+      </div>
+
+      <!-- Valley Foreground Wrapper -->
+      <div class="valley-wrapper" id="download">
+        <!-- Center Content Card with Text -->
+        <div class="valley-card-container">
+          <img src="images/tab.png" alt="Content Card Background" class="valley-card-bg">
+          <div class="valley-card-text">
+            <h2 class="valley-card-title">अपने एंड्रॉइड फोन में आज ही डाउनलोड करें और अपने बच्चे की शिक्षा यात्रा को
+              रंगबिरंगी बनाएं! 🚀</h2>
+            <div class="valley-card-subtitle">
+              <p class="subtitle-item">📶 <strong>100% Offline Play:</strong> इंटरनेट के बिना कहीं भी खेलें! (No Internet
+                required).</p>
+              <p class="subtitle-item">🎯 <strong>Age Group:</strong> 2 से 7 साल के बच्चों के लिए विशेष (Perfect for ages
+                2–7).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Clay Lion Mascot on the right -->
+        <img src="images/clay_lion_1782195062534.png" alt="Clay Lion" class="valley-lion-img">
+      </div>
+
+
+
+      <!-- Footer Section -->
+      <footer id="footer" class="site-footer">
+        <div class="footer-top">
+          <!-- Brand Column -->
+          <div class="footer-brand-col">
+            <h3 class="footer-brand-title">Kakharadhamal</h3>
+            <p class="footer-brand-desc">Making Matrubhasha fun for the next generation.</p>
+            
+            <!-- Store Download Buttons -->
+            <div class="footer-download-section">
+              <h4 class="download-title">Download</h4>
+              <div class="download-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.example.kakaharadhamaal" target="_blank" rel="noopener noreferrer" class="download-btn-link">
+                  <img src="images/explore/play store.png" alt="Get it on Google Play" class="store-btn-img">
+                </a>
+                <a class="download-btn-link locked" aria-label="App Store download currently locked">
+                  <img src="images/explore/app store.png" alt="Download on the App Store" class="store-btn-img">
+                  <span class="store-lock-badge">🔒</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Menu Columns & Social Links -->
+          <div class="footer-menu-cols">
+            <div class="footer-links-grid">
+              <!-- Company -->
+              <div class="footer-col">
+                <h4 class="footer-col-title">Company</h4>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#reviews" class="footer-link">Reviews</a>
+                <a href="#blog" class="footer-link">Blog</a>
+              </div>
+              
+              <!-- Features -->
+              <div class="footer-col">
+                <h4 class="footer-col-title">Features</h4>
+                <a href="#how-it-works" class="footer-link">How It Works</a>
+                <a href="#protect" class="footer-link">Protect</a>
+                <a href="privacy.html" class="footer-link">Privacy Policy</a>
+              </div>
+            </div>
+            
+            <!-- Social Media Section -->
+            <div class="footer-social-section">
+              <a href="https://www.facebook.com/profile.php?id=61592622755172" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                <img src="images/explore/FB.png" alt="Facebook">
+              </a>
+              <a href="https://www.instagram.com/kakharadhamaal/" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                <img src="images/explore/Insta.png" alt="Instagram">
+              </a>
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                <img src="images/explore/X.png" alt="X">
+              </a>
+              <a href="https://wa.me/917600877544" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                <img src="images/explore/WTS.png" alt="WhatsApp">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom copyright -->
+        <div class="footer-bottom">
+          <div class="footer-divider"></div>
+          <p class="copyright-text">Copyright © 2026 Kakharadhamal. All Rights Reserved. Crafted by Jignesh Gajjar.</p>
+        </div>
+      </footer>
+    </section>
+
+  </div>
+
+  <!-- About Us Popup Modal -->
+  <div id="about-popup" class="popup-overlay">
+    <div class="popup-card">
+      <img src="images/tab.png" alt="Popup Background" class="popup-bg">
+      <button id="close-popup" class="popup-close-btn" aria-label="Close popup">&times;</button>
+      <div class="popup-content">
+        <h2 class="popup-title">🧱 About Us (हमारे बारे में)</h2>
+        <div class="popup-scroll-area">
+          <p class="popup-body"><strong>कखरा धमाल (Kakharadhamal)</strong> केवल एक गेम नहीं है, बल्कि बच्चों को उनकी मातृभाषा से जोड़ने का एक अनोखा प्रयास है। हम डिजिटल स्क्रीन टाइम को अर्थपूर्ण लर्निंग टाइम में बदलना चाहते हैं।</p>
+          
+          <div class="popup-section">
+            <h4 class="popup-section-title">🎯 हमारा उद्देश्य (Our Mission)</h4>
+            <p class="popup-section-body">आज के डिजिटल युग में बच्चे आसानी से, सुरक्षित रूप से और खेलते-खेलते शुद्ध हिंदी भाषा सीख सकें ऐसा वातावरण प्रदान करना।</p>
+          </div>
+          
+          <div class="popup-section">
+            <h4 class="popup-section-title">🎨 यूनिक क्ले-आर्ट स्टाइल (Unique Clay-Art Style)</h4>
+            <p class="popup-section-body">एप्लिकेशन के प्रत्येक अक्षरों और पात्रों को वास्तविक प्ले-डोह (Playdough) जैसा अहसास देने के लिए विशेष 3D क्ले-आर्ट शैली में तैयार किया गया है, जो बच्चों की कल्पनाशीलता को बढ़ाता है।</p>
+          </div>
+          
+          <div class="popup-section">
+            <h4 class="popup-section-title">🔒 पूर्ण सुरक्षित (100% Child-Safe)</h4>
+            <p class="popup-section-body">कोई लॉग-इन नहीं, कोई व्यक्तिगत डेटा ट्रैकिंग नहीं और बच्चों के लिए पूर्ण सुरक्षित शैक्षणिक ऐप! बच्चों के लिए बिल्कुल सुरक्षित और इंटरनेट के बिना (Offline) भी चलने वाला एक अनोखा शैक्षणिक ऐप।</p>
+          </div>
+          
+          <p class="popup-footer-text">अक्षरों की इस रंगबिरंगी और मनोरंजक यात्रा में अपने बच्चे के साथ जुड़ें! 🚀</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Privacy Policy Full-Page Modal -->
+  <div id="privacy-popup" class="privacy-overlay">
+    <div class="privacy-card">
+      <button id="close-privacy" class="privacy-close-btn" aria-label="Close privacy policy">&times;</button>
+      <div class="privacy-content">
+        <h1 class="privacy-title">Privacy Policy</h1>
+        <p class="privacy-date">Last Updated: June 2026</p>
+        
+        <div class="privacy-scroll-area">
+          <p class="privacy-intro">Welcome to Kakharadhamal, a fun and interactive Hindi alphabet learning mobile application designed specifically for children. This Privacy Policy details how we treat information when you use our app.</p>
+          
+          <div class="privacy-section">
+            <h2 class="privacy-section-title">🛡️ Privacy Commitment</h2>
+            <p class="privacy-section-body">We prioritize your child's privacy. While Kakharadhamal does not directly collect, store, or transmit personal identifiers (like names or emails), the app integrates with trusted third-party services (Google Firebase and approved Ad Networks) to support the application, monitor stability, and improve the learning experience.</p>
+          </div>
+          
+          <div class="privacy-section">
+            <h2 class="privacy-section-title">1. Gameplay & Local Storage</h2>
+            <p class="privacy-section-body">All learning progress, gameplay, and interactions remain stored 100% locally on your device. The app only utilizes network data to securely fetch non-personalized advertisements, log crash data, and track basic operational app performance metrics.</p>
+          </div>
+          
+          <div class="privacy-section">
+            <h2 class="privacy-section-title">2. No Account Registration</h2>
+            <p class="privacy-section-body">There are no sign-ups, registrations, or profiles required to use our application. Children can start learning instantly without entering any personal identifiers, emails, names, or phone numbers.</p>
+          </div>
+          
+          <div class="privacy-section">
+            <h2 class="privacy-section-title">3. Third-Party SDKs, Advertising & Analytics</h2>
+            <p class="privacy-section-body">To keep this app free and maintain its performance, we use industry-standard developer tools. These third-party networks may process limited, anonymous technical data:</p>
+            <p class="privacy-section-body"><strong>Non-Personalized Ads Only:</strong> We display contextually relevant advertisements and explicitly configure our ad providers to serve non-personalized ads. The ad networks may collect anonymous, technical device identifiers solely for ad frequency capping, contextual targeting, and fraud prevention. No behavioral tracking across other websites or apps occurs.</p>
+            <p class="privacy-section-body"><strong>Google Firebase Analytics:</strong> We use this to understand general app usage (e.g., which screens are opened, app updates). It tracks anonymous event data and technical device details for internal operational metrics only.</p>
+            <p class="privacy-section-body"><strong>Google Firebase Crashlytics:</strong> To fix bugs and prevent crashes, Crashlytics automatically collects anonymous stack traces, device models, and operating system versions when an error occurs.</p>
+          </div>
+          
+          <div class="privacy-section">
+            <h2 class="privacy-section-title">4. Children's Privacy Compliance (COPPA & Google Play Families)</h2>
+            <p class="privacy-section-body">Our app is built to strictly comply with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policies.</p>
+            <p class="privacy-section-body">We do not knowingly collect personal data from children under 13.</p>
+            <p class="privacy-section-body">All ad traffic and Firebase services are explicitly flagged as Child-Directed at the SDK level to disable demographic data collection, personalized advertising, and remarketing features.</p>
+          </div>
+          
+          <div class="privacy-section">
+            <h2 class="privacy-section-title">5. Permissions</h2>
+            <p class="privacy-section-body">The app utilizes basic network access permissions (INTERNET and ACCESS_NETWORK_STATE) to fetch ads and securely transmit anonymous diagnostics. It does not request access to sensitive device permissions like your location, camera, microphone, local storage, or contacts.</p>
+          </div>
+          
+          <div class="privacy-section">
+            <h2 class="privacy-section-title">6. Contact Us</h2>
+            <p class="privacy-section-body">If you have any questions or feedback regarding this Privacy Policy or our development practices, please feel free to reach out to us at:</p>
+            <p class="privacy-section-body">✉️ <strong>Email:</strong> <a href="mailto:hello.kakharadhamaal@gmail.com">hello.kakharadhamaal@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Overlay Menu Drawer -->
+  <div id="mobile-menu-overlay" class="mobile-menu-overlay">
+    <button class="mobile-menu-close" id="close-mobile-menu" aria-label="Close Menu">&times;</button>
+    <div class="mobile-menu-content">
+      <a href="#site-container" class="mobile-nav-link">Home</a>
+      <a href="#zone-bottom" class="mobile-nav-link">Modules</a>
+      <a href="#about" class="mobile-nav-link">About us</a>
+      <a href="#footer" class="mobile-nav-link mobile-download-btn">Download App</a>
+    </div>
+  </div>
+
+  <script src="app.js?v=26"></script>
+</body>
+
+</html>
